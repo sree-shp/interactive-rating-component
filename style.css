@@ -1,0 +1,74 @@
+body{
+    background-color: #141519;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rating-card{
+    background-color: #1f2630;
+    margin: 20% 30%;
+    padding: 5%;
+    border-radius: 1.5rem;
+}
+
+.star{
+    width: 50px;
+    height: 50px;
+    background-color: #272e38;
+    border-radius: 100%;
+
+}
+
+.star-image{
+   width: 25px;
+   position: relative;
+   top: 12px;
+   left: 12px;
+}
+
+.star-button{
+    border-radius: 50%;
+    border-width: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: #272e38;
+    margin: 2.5%;
+    color: white;
+}
+
+.star-button:hover{
+    color: white;
+    background: #fc7613;
+    text-decoration: none;
+}
+.star-rating{
+    padding: 7% 0%;
+}
+
+.card-message{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.card-description{
+    color: gray;
+}
+.submit{
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-width: 0px;;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #fc7613;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.submit:hover{
+    color: #fc7613;
+    background: #ffffff;
+    text-decoration: none;
+}
