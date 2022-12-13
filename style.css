@@ -4,13 +4,16 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.rating-card{
+.card{
     background-color: #1f2630;
     margin: 20% 30%;
     padding: 5%;
     border-radius: 1.5rem;
 }
 
+#thank-you-card{
+    text-align: center;
+}
 .star{
     width: 50px;
     height: 50px;
@@ -34,6 +37,10 @@ body{
     background-color: #272e38;
     margin: 2.5%;
     color: white;
+}
+
+.star-button-selected{
+    background-color: grey;
 }
 
 .star-button:hover{
@@ -71,4 +78,17 @@ body{
     color: #fc7613;
     background: #ffffff;
     text-decoration: none;
+}
+
+.selected-rating{
+    background-color: #272e38;
+    border-radius: 2rem;
+    color:#fc7613;
+    margin: 0% 20%;
+    /* width: 70%; */
+    padding: 2.5%;
+}
+
+.hidden{
+    display: none;
 }

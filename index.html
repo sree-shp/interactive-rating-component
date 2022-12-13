@@ -14,7 +14,7 @@
     />
   </head>
   <body>
-    <div class="rating-card">
+    <div class="card" id="rating-card">
       <div class="star">
         <img src="images\star.png" class="star-image" alt="" />
       </div>
@@ -24,14 +24,27 @@
         appreciated to help us improve our offering!
       </p>
       <div class="star-rating">
-        <button class="star-button">1</button>
-        <button class="star-button">2</button>
-        <button class="star-button">3</button>
-        <button class="star-button">4</button>
-        <button class="star-button">5</button>
+        <button class="star-button" value="1">1</button>
+        <button class="star-button" value="2">2</button>
+        <button class="star-button" value="3">3</button>
+        <button class="star-button" value="4">4</button>
+        <button class="star-button" value="5">5</button>
       </div>
       <button type="submit" class="submit">SUBMIT</button>
     </div>
+    <div class="card hidden" id="thank-you-card">
+      <img src="images/illustration-thank-you.svg" alt="" />
+      <p class="selected-rating">
+        You selected out <span class="selected-rating-number"></span> of 5
+      </p>
+      <h2>Thank You!</h2>
+      <p class="card-description">
+        We appreciate you taking the time to give a rating.If you ever need more
+        support,dont hesitate to get in touch!
+      </p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
 -
